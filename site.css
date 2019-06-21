@@ -75,3 +75,122 @@ footer {
     padding: 1rem;
     text-align: center;
 }
+
+/* Section */
+.feature__section {
+    min-height: 800px;
+    background-image: url('../html-css-scotch.io-bootcamp/images/sky.jpg');
+    background-size: cover;
+    
+}
+
+.feature__section .feature__content {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.feature__section h1 {
+    font-size: 100px;    
+    margin: 0;
+}
+
+.feature__section p {
+    font-size: 50px;
+}
+
+.feature__section a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 3px;
+    padding: 15px 30px;
+    font-size: 28px;
+}
+
+.key__section {
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    text-align: center;
+}
+
+.key__section h2 {
+    margin-top:30px; 
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #777777;
+}
+
+.key__box {
+    display: inline-block;
+    width: 33%;
+    padding: 20px 20px;
+}
+
+.key__box img {
+    margin-bottom: 12px;
+    width: 80px;
+}
+
+.key__box h5 {
+    font-size: 20px;
+    color: #999999;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.people__section {
+    background-color: #EFEFEF;
+    text-align: center;
+    padding-top: 30px; 
+}
+
+.people__section h2 {
+    margin-top:30px; 
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #777777;
+}
+
+.people__box {
+    display: inline-block;
+    width: 33%;
+    padding: 20px 30px;
+}
+
+.people__content {
+    text-align: left;
+    background: #FFF;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.people__author {
+    text-align: left;
+}
+
+.people__author img {
+    float: left;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.people__author h5 {
+    font-size: 18px;
+    margin: 0;
+    padding-top:15px;
+}
+
+.people__author span {
+    font-size: 14px;
+}
